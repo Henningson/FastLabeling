@@ -16,7 +16,6 @@ from PyQt5.QtWidgets import (
     QGraphicsScene,
     QVBoxLayout,
     QWidget,
-    QApplication,
     QScrollArea,
     QAction,
     QInputDialog,
@@ -298,7 +297,6 @@ class MainWindow(QMainWindow):
             rel_path = value["path"]
             id = value["id"]
             image = cv2.imread(os.path.join(temp_path, rel_path))
-            print(label)
 
             datum = SpecularHightlightDatum(image, id, PointLabel(label))
             data_points.append(datum)

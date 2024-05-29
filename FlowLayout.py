@@ -42,7 +42,7 @@
 #############################################################################
 
 from PyQt5.QtCore import QPoint, QRect, QSize, Qt, pyqtSignal
-from PyQt5.QtWidgets import QApplication, QLayout, QPushButton, QSizePolicy, QWidget
+from PyQt5.QtWidgets import QLayout, QSizePolicy
 
 
 class FlowLayout(QLayout):
