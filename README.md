@@ -1,8 +1,10 @@
 # Laser-Based Structured Light Data Labelling Tool
 
 This is a small tool that I programmed to efficiently label data for a classification task.  
-This was made for Structured Light data, but can be easily repurposed for arbitrary images.
+This was made for Structured Light data, but can be easily repurposed for arbitrary images.  
+Don't expect anything too much here, lol.
 
+<img src="https://github.com/Henningson/FastLabeling/assets/27073509/4262716b-e2c4-412e-9d9d-dec24b416358" width="200">
 
 ## Installation
 
@@ -31,10 +33,10 @@ To get started with the labelling tool, follow these steps:
 - `3` - Label as Other
 
 Labels are then highlighted in the following colors:
-- Laserpoint: <span style="color: #00FF00">Green</span>
-- Specular Highlight: <span style="color: #FF0000">Red</span>
-- Other: <span style="color: #0000FF">Blue</span>
-- Unlabeled: <span style="color: #000000">Black</span>
+- 🟩 Laserpoint
+- 🟥 Specular Highlight
+- 🟦 Other
+- ⬛ Not yet labeled
 
 ## Usage
 
